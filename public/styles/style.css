@@ -129,3 +129,66 @@ body {
 .version {
     font-size: 12px;
 }
+
+/* LOGIN */
+
+.login {
+    height: var(--tamanho-banner);
+    color: white;
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+    background-size: cover;
+}
+
+.login .container {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login .card {
+    padding: 15px 50px;
+    border-radius: 10px;
+    background-color: #d6d5d5;
+    background-size: cover;
+    color: #f37c7c;
+    font-weight: 700;
+}
+
+.login h2{
+    margin: 0;
+    text-align: center;
+}
+
+.login .formulario {
+    text-align: center;
+}
+
+.login .campo {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.login input {
+    width: 40vw;
+    height: 25px;
+    border: solid;
+    border-width: 2px;
+    border-color: #6ac3ff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.login .botao {
+    font-size: 15px;
+    margin-top: 20px;
+    height: 100%;
+    width: 100px;
+    background-color: #ef135b;
+    color: white;
+    border: solid;
+    font-weight: 700;
+    border-color: #ef135b;
+    border-radius: 5px;
+}
